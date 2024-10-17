@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\pemrodasar2\\projectutstoko\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96873A80-9857-48A8-8E16-182E977E0B08}|projectutstoko\\projectutstoko.csproj|d:\\pemrodasar2\\projectutstoko\\projectutstoko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96873A80-9857-48A8-8E16-182E977E0B08}|projectutstoko\\projectutstoko.csproj|solutionrelative:projectutstoko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\pemrodasar2\\projectutstoko\\projectutstoko\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "projectutstoko\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\pemrodasar2\\projectutstoko\\projectutstoko\\MainWindow.xaml.cs",
+              "RelativeToolTip": "projectutstoko\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T05:12:58.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
