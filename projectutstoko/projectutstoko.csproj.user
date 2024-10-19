@@ -7,7 +7,48 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Compile Update="Admin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pelanggan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Produk.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Transaksi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TransaksiDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Admin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pelanggan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Produk.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Transaksi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TransaksiDetail.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\pemrodasar2\\projectutstoko\\projectutstoko\\projectutstoko.csproj": {}
+    "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj": {}
   },
   "projects": {
-    "D:\\pemrodasar2\\projectutstoko\\projectutstoko\\projectutstoko.csproj": {
+    "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\pemrodasar2\\projectutstoko\\projectutstoko\\projectutstoko.csproj",
+        "projectUniqueName": "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj",
         "projectName": "projectutstoko",
-        "projectPath": "D:\\pemrodasar2\\projectutstoko\\projectutstoko\\projectutstoko.csproj",
+        "projectPath": "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj",
         "packagesPath": "C:\\Users\\daffa\\.nuget\\packages\\",
-        "outputPath": "D:\\pemrodasar2\\projectutstoko\\projectutstoko\\obj\\",
+        "outputPath": "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daffa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

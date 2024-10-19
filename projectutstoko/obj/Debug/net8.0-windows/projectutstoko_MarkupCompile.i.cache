@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\pemrodasar2\projectutstoko\projectutstoko\obj\Debug\net8.0-windows\
+F:\ngodingc#\uts\Project-UTS\projectutstoko\obj\Debug\net8.0-windows\
 projectutstoko
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\pemrodasar2\projectutstoko\projectutstoko\App.xaml
-11407045341
+F:\ngodingc#\uts\Project-UTS\projectutstoko\App.xaml
+7-203212220
 
-6765772460
-1981124507420
-MainWindow.xaml;
+13273358227
+200-1489801571
+Admin.xaml;LoginForm.xaml;Menu.xaml;Pelanggan.xaml;Produk.xaml;Transaksi.xaml;TransaksiDetail.xaml;
 
 False
 
