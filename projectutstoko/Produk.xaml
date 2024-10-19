@@ -1,4 +1,4 @@
-﻿<Page x:Class="projectutstoko.Produk"
+<Page x:Class="projectutstoko.Produk"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -9,7 +9,48 @@
       Title="Produk">
 
     <Grid>
+        <!-- Background Rectangle -->
         <Rectangle HorizontalAlignment="Left" Height="331" Margin="50,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="761" Fill="Black"/>
+
+        <!-- Label for Produk -->
+        <Label Content="Daftar Produk" HorizontalAlignment="Left" Margin="70,80,0,0" VerticalAlignment="Top" FontSize="20" Foreground="White"/>
+
+        <!-- DataGrid for displaying Produk -->
+        <DataGrid x:Name="DataGridProduk" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="70,120,0,0" VerticalAlignment="Top" Height="200" Width="720"
+                  SelectionChanged="DataGridProduk_SelectionChanged">
+            <!-- Event handler untuk SelectionChanged -->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID Produk" Binding="{Binding id_produk}" Width="100"/>
+                <DataGridTextColumn Header="Nama Produk" Binding="{Binding nama_produk}" Width="200"/>
+                <DataGridTextColumn Header="Jumlah" Binding="{Binding jumlah_produk}" Width="100"/>
+                <DataGridTextColumn Header="Harga" Binding="{Binding harga_produk}" Width="150"/>
+                <DataGridTextColumn Header="Deskripsi" Binding="{Binding deskripsi_produk}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Form for CRUD Operations -->
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="850,65,0,0" VerticalAlignment="Top" Width="200">
+            <Label Content="ID Produk:"/>
+            <TextBox x:Name="txtIdProduk" IsEnabled="False" IsReadOnly="True"/>
+            <!-- Make sure ID is not editable -->
+
+            <Label Content="Nama Produk:"/>
+            <TextBox x:Name="txtNamaProduk"/>
+
+            <Label Content="Jumlah Produk:"/>
+            <TextBox x:Name="txtJumlahProduk"/>
+
+            <Label Content="Harga Produk:"/>
+            <TextBox x:Name="txtHargaProduk"/>
+
+            <Label Content="Deskripsi Produk:"/>
+            <TextBox x:Name="txtDeskripsiProduk"/>
+
+            <!-- Buttons for CRUD Operations -->
+            <Button Content="Tambah Produk" Width="150" Margin="10,10,0,0" Click="TambahProduk_Click"/>
+            <Button Content="Update Produk" Width="150" Margin="10,10,0,0" Click="UpdateProduk_Click"/>
+            <Button Content="Hapus Produk" Width="150" Margin="10,10,0,0" Click="HapusProduk_Click"/>
+        </StackPanel>
 
     </Grid>
 </Page>
