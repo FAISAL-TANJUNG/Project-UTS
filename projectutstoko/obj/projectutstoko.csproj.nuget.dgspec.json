@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj": {}
+    "C:\\Users\\agusm\\Documents\\GitHub\\Project-UTS\\projectutstoko\\projectutstoko.csproj": {}
   },
   "projects": {
-    "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj": {
+    "C:\\Users\\agusm\\Documents\\GitHub\\Project-UTS\\projectutstoko\\projectutstoko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj",
+        "projectUniqueName": "C:\\Users\\agusm\\Documents\\GitHub\\Project-UTS\\projectutstoko\\projectutstoko.csproj",
         "projectName": "projectutstoko",
-        "projectPath": "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj",
-        "packagesPath": "C:\\Users\\daffa\\.nuget\\packages\\",
-        "outputPath": "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\obj\\",
+        "projectPath": "C:\\Users\\agusm\\Documents\\GitHub\\Project-UTS\\projectutstoko\\projectutstoko.csproj",
+        "packagesPath": "C:\\Users\\agusm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\agusm\\Documents\\GitHub\\Project-UTS\\projectutstoko\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\daffa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\agusm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -61,6 +60,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -69,7 +86,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

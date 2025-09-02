@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "Xl409xd4jho=",
-  "success": true,
-  "projectFilePath": "F:\\ngodingc#\\uts\\Project-UTS\\projectutstoko\\projectutstoko.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\daffa\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
-    "C:\\Users\\daffa\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "dpwByJd6RDc=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\agusm\\Documents\\GitHub\\Project-UTS\\projectutstoko\\projectutstoko.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  No such host is known. (api.nuget.org:443)\r\n  No such host is known.",
+      "libraryId": "MySqlConnector"
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }
